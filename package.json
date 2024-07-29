@@ -2,10 +2,13 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build": "npm run build:stencil && npm run build:angular-wrapper",
+    "build": "npm run clear:angular-cache && npm run clear:build:stencil && npm run clear:build:angular-wrapper && npm run build:stencil && npm run build:angular-wrapper",
+    "clear:build:stencil": "rm -rf ./packages/stencil-library/dist &&  rm -rf ./packages/ngular-workspace/projects/component-library/src/lib/stencil-generated",
     "build:stencil": "(cd ./packages/stencil-library && npm run build)",
+    "clear:build:angular-wrapper": "rm -rf ./packages/angular-workspace/dist",
     "build:angular-wrapper": "(cd ./packages/angular-workspace && npx -p @angular/cli ng build component-library)",
-    "dev": "(cd ./packages/angular-workspace && npm run start)"
+    "dev": "(cd ./packages/angular-workspace && npm run start)",
+    "clear:angular-cache": "rm -rf ./packages/angular-workspace/.angular"
   },
   "workspaces": [
     "packages/*"

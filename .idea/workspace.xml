@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0e234e2-9b55-4f0e-8132-41bdbf67d79b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/component-library.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/component-library.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/component-library.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722265737431</updated>
-      <workItem from="1722265738557" duration="2480000" />
+      <workItem from="1722265738557" duration="3902000" />
     </task>
     <servers />
   </component>

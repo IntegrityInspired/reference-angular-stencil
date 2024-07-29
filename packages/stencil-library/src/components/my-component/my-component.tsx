@@ -7,6 +7,10 @@ import { format } from '../../utils/utils';
   shadow: true,
 })
 export class MyComponent {
+  constructor() {
+    console.log(`Hello from MyComponent; I'm from the stencil component that then gets wrapped in an angular lib so that I can be used in this angular app!`)
+  }
+
   /**
    * The first name
    */
@@ -27,6 +31,9 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return <div>
+      <div>Hello, World! I'm {this.getText()}</div>
+      <input size={30}/>
+    </div>
   }
 }
