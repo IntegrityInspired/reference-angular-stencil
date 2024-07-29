@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "npm run build:stencil && npm run build:angular-wrapper",
+    "build:stencil": "(cd ./packages/stencil-library && npm run build)",
+    "build:angular-wrapper": "(cd ./packages/angular-workspace && npx -p @angular/cli ng build component-library)",
+    "dev": "(cd ./packages/angular-workspace && npm run start)"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "lerna": "^8.1.7",
+    "typescript": "^5.5.4"
+  }
+}
