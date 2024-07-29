@@ -8,7 +8,8 @@
     "clear:build:angular-wrapper": "rm -rf ./packages/angular-workspace/dist",
     "build:angular-wrapper": "(cd ./packages/angular-workspace && npx -p @angular/cli ng build component-library)",
     "dev": "(cd ./packages/angular-workspace && npm run start)",
-    "clear:angular-cache": "rm -rf ./packages/angular-workspace/.angular"
+    "clear:angular-cache": "rm -rf ./packages/angular-workspace/.angular",
+    "noahs-jank-publish": "(cd ~/github-sharing/angular-stencil-dist && cp -r ~/WebstormProjects/AngularStencil/packages/angular-workspace/dist/component-library ~/package && git commit -am 'foobar' && git push)"
   },
   "workspaces": [
     "packages/*"

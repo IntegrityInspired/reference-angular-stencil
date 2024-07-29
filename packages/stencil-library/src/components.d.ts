@@ -19,6 +19,10 @@ export namespace Components {
           * The middle name
          */
         "middle": string;
+        /**
+          * Size of input
+         */
+        "size": number;
     }
 }
 declare global {
@@ -46,6 +50,10 @@ declare namespace LocalJSX {
           * The middle name
          */
         "middle"?: string;
+        /**
+          * Size of input
+         */
+        "size"?: number;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;

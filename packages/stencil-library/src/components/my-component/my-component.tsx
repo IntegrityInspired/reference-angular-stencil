@@ -26,6 +26,11 @@ export class MyComponent {
    */
   @Prop() last: string;
 
+  /**
+   * Size of input
+   */
+  @Prop() size: number;
+
   private getText(): string {
     return format(this.first, this.middle, this.last);
   }
@@ -33,7 +38,7 @@ export class MyComponent {
   render() {
     return <div>
       <div>Hello, World! I'm {this.getText()}</div>
-      <input size={30}/>
+      <input size={this.size}/>
     </div>
   }
 }

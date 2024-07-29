@@ -8,14 +8,14 @@ import { Components } from 'stencil-library';
 
 
 @ProxyCmp({
-  inputs: ['first', 'last', 'middle']
+  inputs: ['first', 'last', 'middle', 'size']
 })
 @Component({
   selector: 'my-component',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: '<ng-content></ng-content>',
   // eslint-disable-next-line @angular-eslint/no-inputs-metadata-property
-  inputs: ['first', 'last', 'middle'],
+  inputs: ['first', 'last', 'middle', 'size'],
 })
 export class MyComponent {
   protected el: HTMLElement;
