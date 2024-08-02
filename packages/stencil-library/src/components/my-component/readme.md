@@ -15,6 +15,19 @@
 | `size`   | `size`    | Size of input   | `number` | `undefined` |
 
 
+## Dependencies
+
+### Used by
+
+ - [wrapper-my-component](../wrapper-my-component)
+
+### Graph
+```mermaid
+graph TD;
+  wrapper-my-component --> my-component
+  style my-component fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

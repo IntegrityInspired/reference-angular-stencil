@@ -24,6 +24,9 @@ export namespace Components {
          */
         "size": number;
     }
+    interface WrapperMyComponent {
+        "size": number;
+    }
 }
 declare global {
     interface HTMLMyComponentElement extends Components.MyComponent, HTMLStencilElement {
@@ -32,8 +35,15 @@ declare global {
         prototype: HTMLMyComponentElement;
         new (): HTMLMyComponentElement;
     };
+    interface HTMLWrapperMyComponentElement extends Components.WrapperMyComponent, HTMLStencilElement {
+    }
+    var HTMLWrapperMyComponentElement: {
+        prototype: HTMLWrapperMyComponentElement;
+        new (): HTMLWrapperMyComponentElement;
+    };
     interface HTMLElementTagNameMap {
         "my-component": HTMLMyComponentElement;
+        "wrapper-my-component": HTMLWrapperMyComponentElement;
     }
 }
 declare namespace LocalJSX {
@@ -55,8 +65,12 @@ declare namespace LocalJSX {
          */
         "size"?: number;
     }
+    interface WrapperMyComponent {
+        "size"?: number;
+    }
     interface IntrinsicElements {
         "my-component": MyComponent;
+        "wrapper-my-component": WrapperMyComponent;
     }
 }
 export { LocalJSX as JSX };
@@ -64,6 +78,7 @@ declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
             "my-component": LocalJSX.MyComponent & JSXBase.HTMLAttributes<HTMLMyComponentElement>;
+            "wrapper-my-component": LocalJSX.WrapperMyComponent & JSXBase.HTMLAttributes<HTMLWrapperMyComponentElement>;
         }
     }
 }

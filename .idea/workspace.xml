@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0e234e2-9b55-4f0e-8132-41bdbf67d79b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/todo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/component-library.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/component-library.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/stencil-generated/components.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/lib/stencil-generated/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/public-api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/component-library/src/public-api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/angular-workspace/projects/my-app/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stencil-library/src/components.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.e2e.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/my-component.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/stencil-library/src/components/my-component/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +49,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722265737431</updated>
       <workItem from="1722265738557" duration="5960000" />
+      <workItem from="1722457400886" duration="7419000" />
     </task>
     <servers />
   </component>

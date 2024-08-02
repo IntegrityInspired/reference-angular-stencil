@@ -29,3 +29,25 @@ export class MyComponent {
 export declare interface MyComponent extends Components.MyComponent {}
 
 
+@ProxyCmp({
+  inputs: ['size']
+})
+@Component({
+  selector: 'wrapper-my-component',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  template: '<ng-content></ng-content>',
+  // eslint-disable-next-line @angular-eslint/no-inputs-metadata-property
+  inputs: ['size'],
+})
+export class WrapperMyComponent {
+  protected el: HTMLElement;
+  constructor(c: ChangeDetectorRef, r: ElementRef, protected z: NgZone) {
+    c.detach();
+    this.el = r.nativeElement;
+  }
+}
+
+
+export declare interface WrapperMyComponent extends Components.WrapperMyComponent {}
+
+
